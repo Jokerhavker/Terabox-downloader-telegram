@@ -9,10 +9,10 @@ async function main() {
   bot.start(async (ctx) => {
     try {
       ctx.reply(
-        `Hi ${ctx.message.from.first_name},\n\nI can Download Files from Terabox.\n\nMade with ❤️ by @botcodes123\n\nSend any terabox link to download.`,
+        `Hi ${ctx.message.from.first_name},\n\nI can Download Files from Terabox.\n\nMade with ❤️ by @Codesless\n\nSend any terabox link to download.`,
         Markup.inlineKeyboard([
-          Markup.button.url(" Channel", "https://t.me/botcodes123"),
-          Markup.button.url("Report bug", "https://t.me/Armanidrisi_bot"),
+          Markup.button.url(" Channel", "https://t.me/Film_Nest"),
+          Markup.button.url("FREE NETFLIX", "https://t.me/nfpremiumsbot"),
         ]),
       );
     } catch (e) {
